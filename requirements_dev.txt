@@ -1,0 +1,8 @@
+black
+bumpversion
+twine
+tox
+pytest
+pytest-cov
+codecov
+git+https://github.com/democritus-project/democritus-dates.git#egg=democritus-dates

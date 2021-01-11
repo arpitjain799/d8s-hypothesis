@@ -30,7 +30,7 @@ setup(
     install_requires=requirements,
     license="MIT license",
     zip_safe=True,
-    keywords='democritus,hypothesis,hypothesis testing,tests',
+    keywords='democritus,hypothesis,hypothesis testing,tests,utility,utils,hypothesis utility',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',

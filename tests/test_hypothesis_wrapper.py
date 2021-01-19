@@ -1,8 +1,9 @@
 """Democritus functions to interact with Hypothesis."""
 
+from functools import partial
 import ipaddress
 
-from hypothesis.provisional import ip4_addr_strings
+from hypothesis.strategies._internal.ipaddress import ip_addresses
 
 from democritus_hypothesis import hypothesis_get_strategy_results
 
@@ -18,13 +19,15 @@ def is_ip_address(text: str) -> bool:
 
 
 def test_hypothesis_get_strategy_results_dates():
-    results = hypothesis_get_strategy_results(ip4_addr_strings)
+    ipv4_addresses_func = partial(ip_addresses, v=4)
+    results = hypothesis_get_strategy_results(ipv4_addresses_func)
     assert len(results) == 10
     for result in results:
         assert is_ip_address(result)
 
     # try specifying a specific number
-    results = hypothesis_get_strategy_results(ip4_addr_strings, n=12)
+    ipv4_addresses_func = partial(ip_addresses, v=4)
+    results = hypothesis_get_strategy_results(ipv4_addresses_func, n=12)
     assert len(results) == 12
     for result in results:
         assert is_ip_address(result)

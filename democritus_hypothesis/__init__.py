@@ -11,6 +11,5 @@ except PackageNotFoundError:
 
 __author__ = '''Floyd Hightower'''
 __email__ = 'floyd.hightower27@gmail.com'
-__version__ = '2021.01.08'
 
 from .hypothesis_wrapper import *

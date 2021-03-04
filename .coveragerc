@@ -3,3 +3,5 @@ omit =
     .tox/*
     tests/*
     setup.py
+    conftest.py
+    democritus_hypothesis/__init__.py

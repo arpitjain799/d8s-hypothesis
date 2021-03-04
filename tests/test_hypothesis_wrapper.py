@@ -1,7 +1,7 @@
 """Democritus functions to interact with Hypothesis."""
 
-from functools import partial
 import ipaddress
+from functools import partial
 
 from hypothesis.strategies._internal.ipaddress import ip_addresses
 

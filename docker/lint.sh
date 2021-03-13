@@ -4,17 +4,17 @@ set -euxo pipefail
 
 echo "Running linters and formatters..."
 
-isort democritus_hypothesis/ tests/
+isort d8s_hypothesis/ tests/
 
-black democritus_hypothesis/ tests/
+black d8s_hypothesis/ tests/
 
-mypy democritus_hypothesis/ tests/
+mypy d8s_hypothesis/ tests/
 
-pylint --fail-under 9 democritus_hypothesis/*.py
+pylint --fail-under 9 d8s_hypothesis/*.py
 
-flake8 democritus_hypothesis/ tests/
+flake8 d8s_hypothesis/ tests/
 
-bandit -r democritus_hypothesis/
+bandit -r d8s_hypothesis/
 
 # we run black again at the end to undo any odd changes made by any of the linters above
-black democritus_hypothesis/ tests/
+black d8s_hypothesis/ tests/

@@ -1,10 +1,10 @@
 # Democritus Hypothesis
 
-[![PyPI](https://img.shields.io/pypi/v/democritus_hypothesis.svg)](https://pypi.python.org/pypi/democritus_hypothesis)
-[![Build Status](https://travis-ci.org/democritus-project/democritus_hypothesis.svg?branch=main)](https://travis-ci.org/democritus-project/democritus_hypothesis)
-[![codecov](https://codecov.io/gh/democritus-project/democritus_hypothesis/branch/main/graph/badge.svg)](https://codecov.io/gh/democritus-project/democritus_hypothesis)
-[![Documentation Status](https://readthedocs.org/projects/democritus-hypothesis/badge/?version=latest)](http://democritus-hypothesis.readthedocs.io/en/latest/?badge=latest)
-[![Updates](https://pyup.io/repos/github/democritus-project/democritus_hypothesis/shield.svg)](https://pyup.io/repos/github/democritus-project/democritus_hypothesis/)
+[![PyPI](https://img.shields.io/pypi/v/d8s_hypothesis.svg)](https://pypi.python.org/pypi/d8s_hypothesis)
+[![Build Status](https://travis-ci.org/democritus-project/d8s_hypothesis.svg?branch=main)](https://travis-ci.org/democritus-project/d8s_hypothesis)
+[![codecov](https://codecov.io/gh/democritus-project/d8s_hypothesis/branch/main/graph/badge.svg)](https://codecov.io/gh/democritus-project/d8s_hypothesis)
+[![Documentation Status](https://readthedocs.org/projects/d8s-hypothesis/badge/?version=latest)](http://d8s-hypothesis.readthedocs.io/en/latest/?badge=latest)
+[![Updates](https://pyup.io/repos/github/democritus-project/d8s_hypothesis/shield.svg)](https://pyup.io/repos/github/democritus-project/d8s_hypothesis/)
 
 Democritus functions<sup>[1]</sup> for working with [Hypothesis](https://hypothesis.readthedocs.io/en/latest/).
 

@@ -5,7 +5,7 @@ from functools import partial
 
 from hypothesis.strategies._internal.ipaddress import ip_addresses
 
-from democritus_hypothesis import hypothesis_get_strategy_results
+from d8s_hypothesis import hypothesis_get_strategy_results
 
 
 def is_ip_address(text: str) -> bool:

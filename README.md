@@ -1,10 +1,11 @@
 # Democritus Hypothesis
 
-[![PyPI](https://img.shields.io/pypi/v/d8s_hypothesis.svg)](https://pypi.python.org/pypi/d8s_hypothesis)
-[![Build Status](https://travis-ci.org/democritus-project/d8s_hypothesis.svg?branch=main)](https://travis-ci.org/democritus-project/d8s_hypothesis)
-[![codecov](https://codecov.io/gh/democritus-project/d8s_hypothesis/branch/main/graph/badge.svg)](https://codecov.io/gh/democritus-project/d8s_hypothesis)
-[![Documentation Status](https://readthedocs.org/projects/d8s-hypothesis/badge/?version=latest)](http://d8s-hypothesis.readthedocs.io/en/latest/?badge=latest)
-[![Updates](https://pyup.io/repos/github/democritus-project/d8s_hypothesis/shield.svg)](https://pyup.io/repos/github/democritus-project/d8s_hypothesis/)
+[![PyPI](https://img.shields.io/pypi/v/d8s-hypothesis.svg)](https://pypi.python.org/pypi/d8s-hypothesis)
+[![CI](https://github.com/democritus-project/d8s-hypothesis/workflows/CI/badge.svg)](https://github.com/democritus-project/d8s-hypothesis/actions)
+[![Lint](https://github.com/democritus-project/d8s-hypothesis/workflows/Lint/badge.svg)](https://github.com/democritus-project/d8s-hypothesis/actions)
+[![codecov](https://codecov.io/gh/democritus-project/d8s-hypothesis/branch/main/graph/badge.svg?token=V0WOIXRGMM)](https://codecov.io/gh/democritus-project/d8s-hypothesis)
+[![The Democritus Project uses semver version 2.0.0](https://img.shields.io/badge/-semver%20v2.0.0-22bfda)](https://semver.org/spec/v2.0.0.html)
+[![The Democritus Project uses black to format code](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 Democritus functions<sup>[1]</sup> for working with [Hypothesis](https://hypothesis.readthedocs.io/en/latest/).
 

@@ -14,9 +14,14 @@ Democritus functions<sup>[1]</sup> for working with [Hypothesis](https://hypothe
 
 We use `d8s` as an abbreviation for `democritus` (you can read more about this [here](https://github.com/democritus-project/roadmap#what-is-d8s)).
 
-## Usage
+## Functions
 
-Coming soon...
+  - ```python
+    def hypothesis_get_strategy_results(strategy, *args, n: int = 10, **kwargs):
+        """Return the given n of results from the given hypothesis strategy.
+    
+    For a list of hypothesis strategies, see: https://hypothesis.readthedocs.io/en/latest/data.html."""
+    ```
 
 ## Development
 
